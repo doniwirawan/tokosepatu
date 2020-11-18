@@ -1,0 +1,237 @@
+/* Nama : I Putu Doni Wirawan */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 1vw;
+}
+
+.jumbotron {
+    background: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.promo-item {
+    background: url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.promo .card img {
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.card .flex-item-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.promo-item-2 {
+    background: url('https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-attachment: fixed;
+}
+
+.container-promo-2 .card img {
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.top-product .card img {
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.logo img {
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-fluid img {
+    max-width: 60px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.feature .col-lg-4 {
+    margin-top: 10px;
+}
+
+.col-lg-4 .icon {
+    text-align: center;
+    width: 100%;
+
+}
+
+.foto-sepatu {
+    display: none;
+}
+
+.kartu {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.kartu img {
+    width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.kartu-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-contact {
+    background: url('https://images.unsplash.com/photo-1584590069631-1c180f90a54c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btnku:hover {
+    color: red !important;
+}
+
+.btnku-2:hover {
+    color: white !important;
+}
+
+.star {
+    color: rgb(255, 167, 4);
+}
+
+.jumbotron.feature {
+    background: url('https://images.unsplash.com/photo-1597248881519-db089d3744a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.feature .col-lg-4 {
+
+    background: rgba(1, 1, 1, 0.5);
+
+}
+
+.feature p {
+    font-size: 1.2em;
+    ;
+}
+
+.harga-produk {
+    color: red;
+    font-size: 1em;
+}
+
+#exampleFormControlInput1 {
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: none;
+    border-bottom: 2px solid white;
+}
+
+#exampleFormControlInput1::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(245, 245, 245);
+    opacity: 1;
+    /* Firefox */
+}
+
+#exampleFormControlInput1:focus {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+    outline: none;
+    border: none;
+}
+
+
+.small-footer {
+    background: url('https://images.unsplash.com/photo-1584590069631-1c180f90a54c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.change-link a {
+    color: red;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .foto-sepatu .col-lg-2 {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .container-fluid {
+        box-sizing: border-box;
+    }
+
+    .container-fluid img {
+        max-width: 300px;
+    }
+
+    .feature {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .foto-sepatu {
+        display: block;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .btnku:hover {
+        color: red !important;
+    }
+
+    .btnku-2:hover {
+        color: white !important;
+    }
+
+
+}
